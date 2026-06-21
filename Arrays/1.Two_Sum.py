@@ -3,10 +3,10 @@ Use a hash map to store numbers we have already seen. For each number, check if 
 
 # Approach
 1. Create an empty hash map.
-    2. Traverse the array.
-    3. Find the complement of the current number.
-    4. If the complement exists in the hash map, return their indices.
-    5. Otherwise, store the current number and its index in the hash map.
+2. Traverse the array.
+3. Find the complement of the current number.
+4. If the complement exists in the hash map, return their indices.
+5. Otherwise, store the current number and its index in the hash map.
 
 # Complexity
 - Time complexity:
