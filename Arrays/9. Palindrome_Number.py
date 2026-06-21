@@ -1,18 +1,18 @@
 # Intuition
-'''Reverse the given number and compare it with the original number. If both are the same, it is a palindrome.'''
+Reverse the given number and compare it with the original number. If both are the same, it is a palindrome.
 
 # Approach
-''' 1. Store the original number.
-    2. Reverse the number digit by digit.
-    3. Compare the reversed number with the original number.
-    4. Return `True` if they are equal, otherwise return `False`.'''
+1. Store the original number.
+2. Reverse the number digit by digit.
+3. Compare the reversed number with the original number.
+4. Return `True` if they are equal, otherwise return `False`.
 
 # Complexity
-''' - Time complexity:
-        O(log n)
+- Time complexity:
+    O(log n)
 
-    - Space complexity:
-        O(1)'''
+- Space complexity:
+    O(1)
 
 # Code
 class Solution:
