@@ -1,19 +1,19 @@
 # Intuition
-'''Use a hash map to store numbers we have already seen. For each number, check if its complement (target - number) is already in the hash map.'''
+Use a hash map to store numbers we have already seen. For each number, check if its complement (target - number) is already in the hash map.
 
 # Approach
-''' 1. Create an empty hash map.
+1. Create an empty hash map.
     2. Traverse the array.
     3. Find the complement of the current number.
     4. If the complement exists in the hash map, return their indices.
-    5. Otherwise, store the current number and its index in the hash map.'''
+    5. Otherwise, store the current number and its index in the hash map.
 
 # Complexity
-''' - Time complexity:
-        O(n)
+- Time complexity:
+    O(n)
 
-    - Space complexity:
-        O(n)'''
+- Space complexity:
+    O(n)
 
 # Code
 class Solution:
